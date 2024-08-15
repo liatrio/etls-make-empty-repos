@@ -1,8 +1,62 @@
 {
-    "RedTeam": [
-        "donut"
+    "ETLSFalconOps": [
+      "etls-falcon-auth-service",
+      "etls-falcon-payment-gateway",
+      "etls-falcon-user-profile",
+      "etls-falcon-notifications",
+      "etls-falcon-inventory-management",
+      "etls-falcon-order-processing",
+      "etls-falcon-customer-support",
+      "etls-falcon-shipping-service",
+      "etls-falcon-analytics-dashboard",
+      "etls-falcon-admin-portal"
     ],
-    "BlueTeam": [
-        "caboose"
+    "ETLSNebulaTech": [
+      "etls-nebula-auth",
+      "etls-nebula-billing",
+      "etls-nebula-user-management",
+      "etls-nebula-email-service",
+      "etls-nebula-catalog-service",
+      "etls-nebula-recommendations-engine",
+      "etls-nebula-reporting-service",
+      "etls-nebula-search-service",
+      "etls-nebula-api-gateway",
+      "etls-nebula-monitoring-service"
+    ],
+    "ETLSQuantumSquad": [
+      "etls-quantum-auth-service",
+      "etls-quantum-cart-service",
+      "etls-quantum-product-catalog",
+      "etls-quantum-checkout-service",
+      "etls-quantum-review-service",
+      "etls-quantum-inventory-sync",
+      "etls-quantum-discount-engine",
+      "etls-quantum-metrics-service",
+      "etls-quantum-security-audit",
+      "etls-quantum-dev-tools"
+    ],
+    "ETLSZephyrForge": [
+      "etls-zephyr-authentication",
+      "etls-zephyr-payment-service",
+      "etls-zephyr-customer-portal",
+      "etls-zephyr-product-feed",
+      "etls-zephyr-order-tracking",
+      "etls-zephyr-recommendations",
+      "etls-zephyr-analytics-engine",
+      "etls-zephyr-event-streaming",
+      "etls-zephyr-notification-hub",
+      "etls-zephyr-api-management"
+    ],
+    "ETLSOrionLabs": [
+      "etls-orion-auth-service",
+      "etls-orion-subscription-service",
+      "etls-orion-profile-management",
+      "etls-orion-email-notifier",
+      "etls-orion-content-delivery",
+      "etls-orion-event-logging",
+      "etls-orion-performance-monitor",
+      "etls-orion-caching-service",
+      "etls-orion-security-service",
+      "etls-orion-documentation"
     ]
 }
