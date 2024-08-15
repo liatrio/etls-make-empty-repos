@@ -17,6 +17,6 @@ echo "$json_data" | jq -r 'keys[]' | while read -r team; do
   echo "Creating GitHub team: $team in liatrio organization with visibility set to 'Visible'"
 
   # Create the team with 'Visible' privacy in the Liatrio organization using the GitHub CLI
-  gh api --method POST -H "Accept: application/vnd.github.v3+json" /orgs/liatrio/teams -f name="$team" -f privacy="visible" --silent
+  gh api --method POST -H "Accept: application/vnd.github.v3+json" /orgs/liatrio/teams -f name="$team" -f privacy="closed" --silent
 
 done
